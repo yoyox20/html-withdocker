@@ -1,0 +1,7 @@
+version: "3.1"
+service:
+ webapp:
+   image: alpine
+   command: cat /app/root.php
+   volumes:
+   - "/home/ubuntu/webapp:/app"
