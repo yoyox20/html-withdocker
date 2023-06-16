@@ -5,12 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: step1
-        run: mkdir memek  
-  job-public-repo-ubuntu2:
-    runs-on: ubuntu-latest
-    steps: 
-      - name: step1
-        run: pwd
+        run: mkdir memek 
 
       
  
