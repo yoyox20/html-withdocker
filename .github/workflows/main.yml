@@ -6,4 +6,7 @@ jobs:
     steps:
       - name: my-step
         run: pwd
+    steps:
+      - name: my-step
+        run: mkdir yoyo
  
